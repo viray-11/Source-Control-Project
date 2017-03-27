@@ -1,0 +1,95 @@
+nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+}
+
+a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: times;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+body {
+  height: 100%;
+  background-color: gray;
+  font-family: times;
+}
+
+section {
+  text-align: center;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:gray;
+
+}
+
+form {
+  text-align: center;
+}
+
+#mail {
+    border: 2px solid black;
+    margin-top: 15%;
+    background-color: gray;
+}
+
+#contact {
+  background-color: white;
+  width: 25%;
+  text-align: center;
+}
+
+table {
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table a {
+    border: 2px solid black;
+    background-color: gray;
+}
+
+textarea {
+  width: 300px;
+  height: 80px;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 200px;
+    font-family: monospace;
+}
+thead {
+    border-bottom: #000 3px double;;
+}
+table, td, th {
+    border: #000 1px solid;
+}
+td, th {
+    padding: 2px;
+    width: 100px;
+    overflow: hidden;
+}
+
+textarea, input[type="button"], table {
+    margin: 4px;
+    padding: 2px;
+}
